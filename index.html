@@ -13,15 +13,22 @@
     <meta name="description"
         content="2perday's personal homepage and portfolio of infrastructure and development projects">
     <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             padding: 1rem;
 
+            max-width: 50%;
             font-size: medium;
             font-family: "Ubuntu Mono", monospace;
 
-            color: #D8DEE9;
             background-color: #2E3440;
+            color: #D8DEE9;
         }
 
         pre {
@@ -34,11 +41,10 @@
 
         h1 {
             color: #ECEFF4;
-            /* font-style: italic; */
         }
 
         hr {
-            width: 436px;
+            /* width: 436px; */
             margin-left: 0;
             border: none;
             border-top: 1px solid #3B4252;
@@ -46,6 +52,7 @@
 
         .highlight {
             color: #88C0D0;
+            /* font-weight: bold; */
         }
 
         a {
@@ -71,13 +78,21 @@ _/_/_/_/  _/_/_/      _/_/_/  _/          _/_/_/    _/_/_/    _/_/_/  _/    _/_/
     <main>
         <h1>2perday</h1>
         <p>I do whatever it takes.</p>
+        <section>
+            <h2>Background</h2>
+            <ul>
+                <p class="highlight">System Engineer @Elice</p>
+                <p>Data Center Operator @NHN.Enterprise</p>
+                <p>Samsung Software Academy For Youth - 13th Python Track</p>
+            </ul>
+        </section>
         <hr>
         <section>
             <h2>Contact</h2>
             <ul>
-                <li>GitHub <a href="https://github.com/2perday" target="_blank"
+                <p>GitHub <a href="https://github.com/2perday" target="_blank"
                         rel="noopener noreferrer">github.com/2perday</a></li>
-                </li>
+                </p>
             </ul>
         </section>
     </main>
